@@ -5,6 +5,10 @@ body {
   font-family: Helvetica;
   font-size: 12px; }
 
+#intro {
+  color: #999999;
+  font-style: italic; }
+
 #random_letter {
-  font-size: 50px;
+  font-size: 200px;
   line-height: 1.2em; }
