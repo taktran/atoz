@@ -6,6 +6,12 @@
 $atoz_grey: #999999;
 $atoz_black: #000000;
 
+$atoz_button_color: #000000;
+$atoz_button_bg_color: #ffffff;
+
+$atoz_button_hover_color: #000000;
+$atoz_button_hover_bg_color: #f4f4f4;
+
 body {
   font-family: Georgia, serif;
   font-size: 12px;  
@@ -35,4 +41,30 @@ p {
   border: 1px solid $atoz_black;
   @include border_radius(20px);
   @include box_shadow(10px, 10px, $atoz_grey);
+}
+
+a#generate_random {
+  font-size: 50px;
+  line-height: 1.2em;
+  text-align: center;
+  outline: 0;  
+  color: $atoz_button_color;
+  background-color: $atoz_button_bg_color;
+  text-decoration: none;
+  
+  display: block;
+  padding: 20px;
+  margin: 30px 0;  
+  
+  border: 1px solid $atoz_black;
+  @include border_radius(20px);
+  
+  &:hover {
+    color: $atoz_button_hover_color;
+    background-color: $atoz_button_hover_bg_color;    
+  }
+  &:active {    
+    background-color: $atoz_button_hover_bg_color - #111111;
+  }
+  
 }

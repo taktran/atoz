@@ -2,6 +2,10 @@ $(document).ready(function(){
   
   $("#random_letter").html(randomLetter());
   
+  $("#generate_random").click(function() {
+    $("#random_letter").html(randomLetter());
+    return false;
+  });
 });
 
 function randomLetter() {

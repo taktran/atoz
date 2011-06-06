@@ -31,3 +31,24 @@ p {
   box-shadow: 10px 10px 10px #999999;
   -moz-box-shadow: 10px 10px 10px #999999;
   -webkit-box-shadow: 10px 10px 10px #999999; }
+
+a#generate_random {
+  font-size: 50px;
+  line-height: 1.2em;
+  text-align: center;
+  outline: 0;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  margin: 30px 0;
+  border: 1px solid black;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px; }
+  a#generate_random:hover {
+    color: black;
+    background-color: #f4f4f4; }
+  a#generate_random:active {
+    background-color: #e3e3e3; }
