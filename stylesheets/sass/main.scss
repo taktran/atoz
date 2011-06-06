@@ -1,20 +1,38 @@
 /*
   a to z styles
 */
+@import "helper";
 
 $atoz_grey: #999999;
+$atoz_black: #000000;
 
 body {
-  font-family: Helvetica; 
+  font-family: Georgia, serif;
   font-size: 12px;  
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 #intro {
   color: $atoz_grey;
   font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: lighter;
 }
 
 #random_letter {
   font-size: 200px;
   line-height: 1.2em;
+  display: block;
+  
+  padding: 30px;
+  margin: 0 20px;
+  text-align: center;
+  border: 1px solid $atoz_black;
+  @include border_radius(20px);
+  @include box_shadow(10px, 10px, $atoz_grey);
 }
