@@ -1,3 +1,6 @@
+# bundler
+.bundle
+
 # sass
 .sass-cache
 .sass-cache/*
