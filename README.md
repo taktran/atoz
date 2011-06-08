@@ -9,6 +9,6 @@ This project uses [sass](http://sass-lang.com/).
 To generate the css files:
 
     gem install sass
-    sass --watch stylesheets/sass/main.scss:stylesheets/main.css
+    sass --watch public/stylesheets/sass/main.scss:public/stylesheets/main.css
 
     
