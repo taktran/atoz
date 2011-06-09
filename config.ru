@@ -1,2 +1,2 @@
-require 'beta'
+require './web'
 run Sinatra::Application
